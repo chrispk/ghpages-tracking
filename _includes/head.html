@@ -1,0 +1,50 @@
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <style type="text/css">
+  	button, input, optgroup, select, textarea {
+	    margin: 0;
+	    font-family: inherit;
+	    font-size: inherit;
+	    line-height: inherit;
+	}
+  	input[type="checkbox" i] {
+	    background-color: initial;
+	    cursor: default;
+	    -webkit-appearance: checkbox;
+	    box-sizing: border-box;
+	    margin: .3rem 0.5ex 3px -1.25rem;
+	    padding: initial;
+	    border: initial;
+	}
+  	.form-check {
+	    position: relative;
+	    display: block;
+	    padding-left: 1.25rem;
+	}
+	.form-check-input {
+	    position: absolute;
+	    margin-top: .3rem;
+	    margin-left: -1.25rem;
+	}
+	input[type=checkbox], input[type=radio] {
+	    box-sizing: border-box;
+	    padding: 0;
+	}
+
+	label {
+	    display: inline-block;
+	    margin-bottom: .5rem;
+	}
+	.form-check-label {
+	    margin-bottom: 0;
+	}
+  </style>
+  {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    
+  {%- endif -%}
+</head>
