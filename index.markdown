@@ -1,12 +1,11 @@
 ---
 layout: page
+title: Opt-in/opt-out of tracking on this domain
 ---
-<h1>Opt-in/opt-out of tracking on {{ site.url | remove:'http://' | remove:'https://' | remove:'tracking.' | split:'/' | first }}</h1>
-
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkboxDisableTracking">
   <label class="form-check-label" for="defaultCheck1">
-    Disable tracking on <strong>{{ site.url | remove:'http://' | remove:'https://' | remove:'tracking.' | split:'/' | first }}</strong>  for this browser session
+    Disable tracking on this domain for this browser
   </label>
 </div>
 
