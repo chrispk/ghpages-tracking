@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Opt-in/opt-out of tracking on this domain
+exclude: true
 ---
+<h1>Opt-in/opt-out of tracking on this domain</h1>
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkboxDisableTracking">
   <label class="form-check-label" for="defaultCheck1">
