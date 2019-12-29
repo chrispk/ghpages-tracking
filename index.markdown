@@ -9,3 +9,20 @@ layout: page
     Disable tracking on <strong>{{ site.url | remove:'http://' | remove:'https://' | remove:'tracking.' | split:'/' | first }}</strong> indefinitely for this browser session
   </label>
 </div>
+
+<script type="text/javascript">
+  function onload(){
+    var inputDisableTracking = document.getElementById("inputDisableTracking");
+    console.log("test");
+    inputDisableTracking.checked = true;
+  }
+  window.onload = onload();
+
+  // enableTracking() {
+
+  // }
+
+  // disableTracking() {
+    
+  // }
+</script>

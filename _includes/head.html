@@ -43,8 +43,8 @@
 	    margin-bottom: 0;
 	}
   </style>
-  {%- include google-analytics.html -%}
+  {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    
+    {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
